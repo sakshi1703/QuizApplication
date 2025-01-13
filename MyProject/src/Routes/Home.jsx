@@ -10,7 +10,7 @@ const Home = ()=>{
         numberquestions : 5,
     });
 
-
+    
 
     const handleChange = (e)=>{
         const {name, value} = e.target;
@@ -52,8 +52,6 @@ const Home = ()=>{
                 backgroundRepeat: "no-repeat",
                 backgroundImage: "url(https://plus.unsplash.com/premium_photo-1664443577580-dd2674e9d359?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)"
             }}>Setup Your Quiz</h1>
-            
-
 
             <div style={{
                 backgroundImage: "url(https://media.istockphoto.com/id/1349783208/photo/question-mark.jpg?s=2048x2048&w=is&k=20&c=rwBodTHcq6ofe_GoCRQDfrX6-tTnOuH3Ek-mo_Sjxys=)",
